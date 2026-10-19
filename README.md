@@ -103,6 +103,9 @@ A leitura dos QR codes acontece inteiramente no seu computador. A internet só �
 **MH** é uma homenagem a **Masahiro Hara**, o engenheiro japonês que criou o QR code em 1994.
 As cores do programa vêm da bandeira do Japão (*hinomaru*).
 
+QR Code é marca registrada da DENSO WAVE INCORPORATED.
+O MHCODE não tem vínculo com Masahiro Hara nem com a DENSO WAVE.
+
 ## Problemas e sugestões
 
 Encontrou um QR que o MHCODE não leu, ou tem uma ideia? Abra uma
@@ -113,3 +116,4 @@ Encontrou um QR que o MHCODE não leu, ou tem uma ideia? Abra uma
 
 © 2026 Gabriel Silva. Todos os direitos reservados. O instalador é distribuído gratuitamente;
 o código-fonte não é público.
+QR Code é marca registrada da DENSO WAVE INCORPORATED.
