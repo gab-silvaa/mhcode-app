@@ -25,8 +25,10 @@ onde ele leva, avisando quando o link não é de um site confiável.
 
 - **Arraste e solte** um ou vários arquivos na janela
 - **Cole um print** da tela: `Win + Shift + S`, selecione o QR e aperte `Ctrl + V` no MHCODE
-- Lê **imagens** (PNG, JPG, BMP...), **PDF**, **Word**, **Excel** e **PowerPoint**
+- Lê **imagens** (PNG, JPG, BMP...), **PDF**, **Word**, **Excel** e **PowerPoint**,
+  inclusive QR colado como imagem vetorial (EMF/WMF)
 - Em PDFs com várias páginas, informa **em qual página** está cada QR code
+- Leitura de arquivos grandes pode ser **cancelada** a qualquer momento (botão Cancelar ou `Esc`)
 - Reconhece **links, PIX copia e cola, Wi-Fi, e-mail, telefone** e texto comum
 - **Segurança**: links fora da lista de domínios confiáveis pedem confirmação antes de abrir,
   e links sem HTTPS são sinalizados
