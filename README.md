@@ -30,6 +30,8 @@ onde ele leva, avisando quando o link não é de um site confiável.
 - Em PDFs com várias páginas, informa **em qual página** está cada QR code
 - Leitura de arquivos grandes pode ser **cancelada** a qualquer momento (botão Cancelar ou `Esc`)
 - Reconhece **links, PIX copia e cola, Wi-Fi, e-mail, telefone** e texto comum
+- **PIX**: mostra para quem é, o valor, a cidade e a chave antes de você pagar, e avisa
+  com **"Código inválido · não pague"** quando o código foi alterado ou está danificado
 - **Segurança**: links fora da lista de domínios confiáveis pedem confirmação antes de abrir,
   e links sem HTTPS são sinalizados
 - Lista de **domínios confiáveis editável**
@@ -61,6 +63,18 @@ onde ele leva, avisando quando o link não é de um site confiável.
 
 Cada QR encontrado aparece num cartão com o conteúdo, o tipo (link, PIX, Wi-Fi...) e botões
 para **copiar** ou **abrir**.
+
+### PIX
+
+Ao ler um QR de PIX, o MHCODE mostra o que está escrito no código: **nome do recebedor,
+cidade, valor** (ou "a definir por quem paga") e a **chave** (CPF aparece parcialmente
+escondido). O botão **Copiar** copia o código para colar no banco em *Pix → Pix copia e cola*.
+
+- **"Código inválido · não pague"**: o código foi alterado ou está danificado.
+- **"Confira o nome no banco"**: o nome dentro do QR é escrito por quem gerou o código.
+  Só pague se o app do banco mostrar o mesmo recebedor.
+- **Cobrança dinâmica** (lojas, boletos): o valor final fica no banco; o MHCODE mostra
+  qual site emitiu a cobrança.
 
 ### Domínios confiáveis
 
